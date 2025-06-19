@@ -3,6 +3,13 @@
 	"EngineAssociation": "5.5",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "FirstPersonTemplate",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
@@ -18,6 +25,16 @@
 		{
 			"Name": "ScriptableToolsFramework",
 			"Enabled": true
+		},
+		{
+			"Name": "InventorySystem",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/791b4eefe33b4f939cd30b122a395292"
+		},
+		{
+			"Name": "HexBlocksGame",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/2dddc328432841d588865cd82e73e1a6"
 		}
 	]
 }
